@@ -3,3 +3,34 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(assets/netflix-catalogo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  width: 9rem;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  header img {
+    width: 18rem;
+  }
+}
